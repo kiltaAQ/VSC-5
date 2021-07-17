@@ -1,0 +1,1 @@
+document.getElementById("window").addEventListener('mousemove',(e) => {let xAxis = (window.innerWidth / 1 - e.pageX) / 25;let yAxis = (window.innerHeight / 1 - e.pageY) / 25;card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;});
